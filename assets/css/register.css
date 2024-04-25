@@ -1,0 +1,99 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    /* Apply Roboto font to all text */
+}
+
+.container {
+    padding: 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Center the card in the viewport */
+.row.justify-content-center {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.social-login p,
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+    /* Align the margins for consistency */
+}
+
+.social-login .btn {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    /* Apply Roboto font to buttons */
+}
+
+/* Specific styles for Google and Twitter buttons */
+.social-login .btn-google {
+    color: #db4437;
+}
+
+.social-login .btn-twitter {
+    color: #000;
+}
+
+/* Hover effects */
+.social-login .btn-google:hover,
+.social-login .btn-twitter:hover {
+    background-color: #f90;
+    color: #fff;
+    border-color: #f90;
+}
+
+.forgot-password {
+    color: #f90;
+    margin-top: 10px;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Bold font weight for titles, regular for form labels */
+.card-title {
+    font-weight: 700;
+}
+
+.form-group label {
+    font-weight: 400;
+    margin-bottom: 15px;
+    /* Space between form labels and inputs */
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #f90;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Styling for the 'Create Account' link on the sign-in page */
+.btn-link {
+    color: #f90;
+    padding-left: 0;
+}
